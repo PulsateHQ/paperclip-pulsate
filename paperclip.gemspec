@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
   s.add_dependency('activemodel', '4.2.7.1')
   s.add_dependency('activesupport', '4.2.7.1')
   s.add_dependency('cocaine', '0.5.8')
-  s.add_dependency('mime-types', '3.1')
+  s.add_dependency('mime-types', '>= 3.1')
   s.add_dependency('mimemagic', '0.3.8')
 
   s.add_development_dependency('activerecord', '4.2.7.1')
